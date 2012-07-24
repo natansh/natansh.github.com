@@ -271,13 +271,11 @@ h1, h2, h3, h4 {
   padding-bottom: 11px;
 }
 
-.writeup {
-
-}
 .date {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 0.8em;
+  letter-spacing: 2px;
   color: #CCC;
 }
 
@@ -347,7 +345,20 @@ h1, h2, h3, h4 {
   float: right;
 }
 
+.archive-entry {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+.archive-entry time {
+  color: #CCC;
+  width: 150px;
+  display: inline-block;
+  font-size: 1.3 em;
+}
+
+.archive-entry a {
+}
 
 
 
