@@ -116,7 +116,7 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
  * 2. Remove the gap between images and borders on image containers: h5bp.com/e
  */
 
-img { display: block; border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; padding-bottom:30px; margin-left: auto; margin-right: auto; }
+img { display: block; border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; padding-bottom:30px; margin-left: auto; margin-right: auto; max-width: 100%; }
 
 /*
  * Correct overflow not hidden in IE9
