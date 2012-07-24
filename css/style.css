@@ -33,7 +33,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 1.05em; line-height: 1.5}
+body { margin: 0; font-size: 1.0em; line-height: 1.5}
 
 body, button, input, select, textarea { font-family: "Lato", sans-serif; color: #444; }
 
@@ -67,8 +67,10 @@ abbr[title] { border-bottom: 1px dotted; }
 
 b, strong { font-weight: bold; }
 
-blockquote { margin: 0; padding:0 20px; border-left: 7px solid #26C41A; font-size: 0.95em; color: #888;} 
+blockquote { margin: 0; padding:0 20px; border-left: 7px solid #26C41A; color: #888;} 
+
 cite { display: block; padding-left: 40px; padding-top: 1em; font-style: italic; }
+
 blockquote cite:before {
   content: '- '
 }
@@ -116,8 +118,15 @@ nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0
  * 2. Remove the gap between images and borders on image containers: h5bp.com/e
  */
 
-img { display: block; border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; padding-bottom:30px; margin-left: auto; margin-right: auto; max-width: 100%; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle;}
 
+article img {
+  padding-bottom:30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; 
+  display: block;
+}
 /*
  * Correct overflow not hidden in IE9
  */
@@ -214,12 +223,12 @@ h1, h2, h3, h4 {
 }   
 
 #container {
-  width: 960px;
+  width: 920px;
   margin: auto;
 }   
 
 #main {
-  width: 699px;
+  width: 659px;
   float: left;
   border-right: 1px solid #DDD;
 }   
@@ -311,15 +320,22 @@ h1, h2, h3, h4 {
   border-style: none;
   color: #444;
   padding: 10px;
-  padding-left: 30px;
   text-decoration: none;
   -webkit-transition: background-color .25s linear;
   transition: background-color .25s linear;
 }
 
+.side-list a span {
+  vertical-align: middle;
+}
+
 .side-list a:hover {
-  background-color: #666;
+  background-color: #888;
   color: white;
+}
+
+.side-list a img {
+  padding-right: 10px;
 }
 
 .highlight pre {
