@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-heading">
+    <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+    {% if page.external_url %}
+      <h2><a href="{{page.external_url}}" class="article-heading external-link">{{ page.title }}</a> <a href="{{page.url}}" class="permalink">&diams;</a></h2>
+    {% else %}
+      <h2><a href="{{page.url}}" class="article-heading">{{ page.title }}</a></h2>
+    {% endif %}
+
+  </header>
+  {{ content }}
+</article>

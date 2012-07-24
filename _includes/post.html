@@ -1,0 +1,11 @@
+<article class="post">
+  <header class="post-heading">
+    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+    {% if post.external_url %}
+      <h2><a href="{{post.external_url}}" class="article-heading external-link">{{ post.title }}</a> <a href="{{post.url}}" class="permalink">&diams;</a></h2>
+    {% else %}
+      <h2><a href="{{post.url}}" class="article-heading">{{ post.title }}</a></h2>
+    {% endif %}
+  </header>
+  {{ post.content }}
+</article>

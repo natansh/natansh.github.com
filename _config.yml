@@ -1,0 +1,20 @@
+# General Configuration
+
+url: http://natansh.in
+top_title: Natansh Verma
+title: NV
+subtitle: developer . designer . photographer . foodie
+
+date_format: "ordinal"
+
+subscribe_rss: /atom.xml
+email: natansh.verma@gmail.com
+
+# Jekyll Configuration
+root: /
+permalink: /:year/:month-:day/:title.html
+
+paginate: 11
+titlecase: true
+
+pygments: true
