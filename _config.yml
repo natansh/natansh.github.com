@@ -18,3 +18,5 @@ paginate: 11
 titlecase: true
 
 pygments: true
+
+exclude: [CHANGELOG.md, README.md]
