@@ -69,6 +69,12 @@ b, strong { font-weight: bold; }
 
 blockquote { margin: 0; padding:0 20px; border-left: 7px solid #26C41A; color: #888;} 
 
+/* Don't want to see the green sidebar flash in case it's a tweet. */
+blockquote.twitter-tweet {
+  border-left: 0px;
+  text-align: center;
+}
+
 cite { display: block; padding-left: 40px; padding-top: 1em; font-style: italic; }
 
 blockquote cite:before {
