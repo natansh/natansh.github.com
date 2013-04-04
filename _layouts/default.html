@@ -36,8 +36,8 @@
   <div id="container">
     <div id="main">
       <header id="heading">
-        <h1>{{ site.title }}</h1>
-        <span>{{ site.subtitle }}</span>
+        <h1><span class="title">{{ site.title }}</span>&nbsp;<span class="expanded-title">{{ site.expanded_title }}</span></h1>
+        <span class="subtitle">{{ site.subtitle }}</span>
       </header>
       <div id="content" role="main">
         {{ content }}
