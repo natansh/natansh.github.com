@@ -3,7 +3,7 @@ layout: post
 title: Malcolm Gladwell Style 
 ---
 Sacha Grief, on Malcolm Gladwell-style books -
-> These books take one central idea ("we make snap judgments", "influencers are important"
+> These books take one central idea ("we make snap judgments", "influencers are important",
 > "aliens built the pyramids") and then drown you in an avalanche of studies and anecdotes to 
 > support that theory. In my opinion, they're mostly bullshit.
 
