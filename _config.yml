@@ -19,4 +19,4 @@ titlecase: true
 
 pygments: true
 
-exclude: [CHANGELOG.md, README.md]
+exclude: [CHANGELOG.md, README.md, generate_sprites.rb]

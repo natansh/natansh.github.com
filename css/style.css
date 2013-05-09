@@ -353,9 +353,23 @@ h1, h2, h3, h4 {
   color: white;
 }
 
-.side-list a img {
-  padding-right: 10px;
+.sprite {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url('../img/sprite.png') no-repeat top left;
 }
+
+/* All the sprites */
+.sprite-500px{ background-position: 0px 0px; }
+.sprite-archive{ background-position: -30px 0px; }
+.sprite-blog{ background-position: -60px 0px; }
+.sprite-facebook{ background-position: -90px 0px; }
+.sprite-github{ background-position: -120px 0px; }
+.sprite-ions{ background-position: -150px 0px; }
+.sprite-rss{ background-position: -180px 0px; }
+.sprite-source{ background-position: -210px 0px; }
+.sprite-twitter{ background-position: -240px 0px; }
 
 .highlight pre {
   padding: 5px 10px 5px 10px;
