@@ -35,7 +35,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 body { margin: 0; font-size: 1.0em; line-height: 1.5 }
 
-body, button, input, select, textarea { font-family: "Lato", sans-serif; color: #444; word-spacing: 0.1em;}
+body, button, input, select, textarea { font-family: "Lato", sans-serif; color: #444; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -286,6 +286,7 @@ h1, h2, h3, h4 {
 .post {
   border-top: 1px dashed #DDD;
   padding: 30px 29px 30px 10px;
+  text-align: justify;
 }
 .article-heading, .article-heading:visited, .article-heading:active, .article-heading:hover {
   color: #222;
