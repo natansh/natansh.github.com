@@ -285,7 +285,7 @@ h1, h2, h3, h4 {
 
 .post {
   border-top: 1px dashed #DDD;
-  padding: 30px 30px 30px 10px;
+  padding: 30px 29px 30px 10px;
 }
 .article-heading, .article-heading:visited, .article-heading:active, .article-heading:hover {
   color: #222;
