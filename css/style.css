@@ -419,6 +419,10 @@ h1, h2, h3, h4 {
   float: right;
 }
 
+.disabled {
+  color: #CCC;
+}
+
 
 
 
