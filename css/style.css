@@ -33,9 +33,9 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 1.0em; line-height: 1.5}
+body { margin: 0; font-size: 1.0em; line-height: 1.5 }
 
-body, button, input, select, textarea { font-family: "Lato", sans-serif; color: #444; }
+body, button, input, select, textarea { font-family: "Lato", sans-serif; color: #444; word-spacing: 0.1em;}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -244,7 +244,6 @@ h1, h2, h3, h4 {
 #main {
   width: 659px;
   float: left;
-  border-right: 1px solid #DDD;
 }   
 
 #profile {
@@ -285,7 +284,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
-  border-top: 1px solid #DDD;
+  border-top: 1px dashed #DDD;
   padding: 30px 30px 30px 10px;
 }
 .article-heading, .article-heading:visited, .article-heading:active, .article-heading:hover {
@@ -333,15 +332,16 @@ h1, h2, h3, h4 {
   margin: 10px;
   margin-left: 0;
   padding-left: 0;
-  border: 1px solid #DDD; 
+  border: 1px solid #EEE; 
   overflow: hidden;
 }   
 
 .side-list li {
   list-style: none;
   font-size: 1.1em;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #EEE;
 }
+
 .side-list li:last-child {
   border-bottom: none;
 }
