@@ -19,4 +19,6 @@ titlecase: true
 
 pygments: true
 
+markdown: rdiscount
+
 exclude: [CHANGELOG.md, README.md, generate_sprites.rb]
