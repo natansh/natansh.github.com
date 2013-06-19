@@ -16,6 +16,7 @@ root: /
 
 paginate: 11
 titlecase: true
+permalink: pretty
 
 pygments: true
 
