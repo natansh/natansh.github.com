@@ -17,6 +17,7 @@ root: /
 paginate: 11
 titlecase: true
 permalink: pretty
+excerpt_separator: ""
 
 pygments: true
 
