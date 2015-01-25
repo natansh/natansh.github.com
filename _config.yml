@@ -19,7 +19,7 @@ titlecase: true
 permalink: pretty
 excerpt_separator: ""
 
-pygments: true
+highlighter: pygments
 
 markdown: rdiscount
 
