@@ -59,53 +59,54 @@
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+.highlight {
+  width: 520px;
+  overflow: scroll;
+  padding-left: 10px;
+  border-left: 2px solid #eee;
+}
+
 .highlight pre {
-  counter-reset: line-numbering;
-  border-radius: 5px;
-  border: solid 1px #d9d9d9;
   background: #fff;
   padding: 0;
-  line-height: 23px;
-  margin-bottom: 30px;
-  white-space: pre;
-  overflow-x: auto;
   word-break: inherit;
   word-wrap: inherit;
 }
 
-.highlight pre a::before {
-  content: counter(line-numbering);
-  counter-increment: line-numbering;
-  padding-right: 1em; /* space after numbers */
-  width: 25px;
-  text-align: right;
-  opacity: 0.7;
-  display: inline-block;
+.highlight pre .linenos pre {
+  font-size: 1em;
+}
+
+.highlight pre, .code .highlight pre, .linenos pre {
+  font-size: 0.8em;
+}
+
+.highlighttable {
+  border-collapse: separate !important;
+  border: solid 1px #d9d9d9;
+  border-radius: 5px;
+} 
+
+.highlighttable code {
+  border: none;
+}
+
+.highlighttable .linenos {
+  padding: 2px 10px 0 10px;
+  background-color: #f9f9f9;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   color: #aaa;
-  background: #eee;
-  margin-right: 16px;
-  padding: 2px 10px;
-  font-size: 13px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
-.highlight pre a:first-of-type::before {
-  padding-top: 10px;
+.highlighttable .highlight {
+  padding-left: 5px;
+  border-left: none; 
 }
 
-.highlight pre a:last-of-type::before {
-  padding-bottom: 10px;
+.highlighttable .linenodiv, .highlighttable .highlight pre {
+  overflow-x: auto;
+  white-space: pre;
 }
 
-.highlight pre a:only-of-type::before {
-  padding: 10px;
-}
 
-.highlight a {
-  border-bottom: none;
-}

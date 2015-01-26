@@ -2,7 +2,7 @@
 layout: post
 title: Hello World!
 ---
-{% highlight cpp linenos %}
+{% highlight cpp %}
 #include <iostream>
 
 int main(int argc, const char *argv[]) {
