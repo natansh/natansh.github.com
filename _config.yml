@@ -24,3 +24,6 @@ highlighter: pygments
 markdown: kramdown 
 
 exclude: [CHANGELOG.md, README.md, generate_sprites.rb]
+
+safe: true
+lsi: false
