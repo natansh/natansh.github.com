@@ -23,7 +23,7 @@ function schonfinkelize(fn) {
 
 If you look carefully, most of the code is just there to get over the limitation that `arguments` is not an array but an array-like object. If `arguments` was an array, the function would've been much simpler, and then it is easier to see the gist of what the `schonfinkelize` function does.
 
-{% highlight javascript linenos %}
+{% highlight javascript lineanchors %}
 // This is NOT working code. It assumes `arguments` is an array.
 
 function schonfinkelize(fn) {
@@ -36,7 +36,7 @@ function schonfinkelize(fn) {
 
 Of course, once this generalized function is defined, it is easy to use it.
 
-{% highlight javascript linenos %}
+{% highlight javascript lineanchors %}
 // Function that we want to schonfinkelize (or curry)
 function multiply(a, b) {
   return a * b;

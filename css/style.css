@@ -386,13 +386,6 @@ h1, h2, h3, h4 {
 .sprite-source    { background-position: -210px 0; }
 .sprite-twitter   { background-position: -240px 0; }
 
-.highlight pre {
-  padding: 5px 10px 5px 10px;
-  border: 1px solid #DDD;
-  border-radius: 5px;
-  background-color: #F9F9F9;
-}
-
 #main-footer {
   border-top: 1px solid #DDD;
   padding: 10px;

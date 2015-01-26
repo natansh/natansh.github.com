@@ -17,7 +17,7 @@ After finding the perfect source for data, I digged into finding the correct too
 
 The code was surprisingly terse, and I was able to come up with it within an hour. It first downloads the main sitemap and parses a list of archives in it. It then sequentially downloads the archives  that hold individual links, extracts them and adds the list of links present in them to the results.
 
-{% highlight ruby linenos %}
+{% highlight ruby lineanchors %}
 require 'nokogiri'
 require 'httparty'
 require 'zlib'
@@ -68,7 +68,7 @@ end
 
 With the data I have, several interesting metrics can be calculated. However, I decided to calculate the simplest, the number of unique items in Flipkart -
 
-{% highlight ruby linenos %}
+{% highlight ruby lineanchors %}
 sitemap.inject(0) do |result, elem|
   result += elem[1].size  
 end  
