@@ -21,6 +21,6 @@ excerpt_separator: ""
 
 highlighter: pygments
 
-markdown: rdiscount
+markdown: kramdown 
 
 exclude: [CHANGELOG.md, README.md, generate_sprites.rb]
